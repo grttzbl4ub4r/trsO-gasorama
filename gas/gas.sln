@@ -1,0 +1,77 @@
+﻿/*
+Copyright 2020 Carsten Lange
+
+    This file is part of Gasfabrik Teresa O.
+
+    Gasfabrik Teresa O is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Gasfabrik Teresa O is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Gasfabrik Teresa O.  If not, see <http://www.gnu.org/licenses/>.
+
+Licence:
+GNU General Public License 3.0 or later
+*/
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B941E1DD-AD7D-45FF-BCC1-FFCE6E3DFD07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasFabrikTeresaO", "src\GasFabrikTeresaO\GasFabrikTeresaO.csproj", "{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{80BCEFB7-D9AA-42D4-A556-6FE5796CB610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GasFabrikTeresaO.Xunit", "test\GasFabrikTeresaO.Xunit\GasFabrikTeresaO.Xunit.csproj", "{93DB2549-5421-4C40-BBEE-5620D2C6C608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|x64.Build.0 = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|x64.Build.0 = Release|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2}.Release|x86.Build.0 = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|x64.Build.0 = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Debug|x86.Build.0 = Debug|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|x64.ActiveCfg = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|x64.Build.0 = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|x86.ActiveCfg = Release|Any CPU
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2451812-F7C3-4745-8A09-4B75AAB5EDA2} = {B941E1DD-AD7D-45FF-BCC1-FFCE6E3DFD07}
+		{93DB2549-5421-4C40-BBEE-5620D2C6C608} = {80BCEFB7-D9AA-42D4-A556-6FE5796CB610}
+	EndGlobalSection
+EndGlobal
